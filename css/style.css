@@ -1,9 +1,15 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: Roboto;
 }
-
+/* Утилиты */
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.list-two {
+  margin: 0;
+  padding: 0;
+}
 /* Шапка */
 /* веб */
 
@@ -93,12 +99,14 @@ body {
 
 /* главная кнопка */
 .button-hover {
+  margin-top: 33px;
+  padding: 10px 32px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -111,7 +119,10 @@ body {
 }
 
 /* заголовок для занятия и команды */
-.title-hobby-team {
+.our-title {
+  text-align: center;
+  margin: auto;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -145,7 +156,7 @@ body {
 }
 
 /* имена команды */
-.name-teammates {
+.names-teammate {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -156,7 +167,7 @@ body {
 }
 
 /* професия команды */
-.profession-teammates {
+.professions-teammate {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -206,13 +217,6 @@ body {
 }
 
 /* Футер */
-
-/* заливка для футера и главного контента */
-.grey-section {
-  color: white;
-  background-color: #2f303a;
-}
-
 /* Веб */
 .logo-web {
   font-family: Raleway;
@@ -234,6 +238,8 @@ body {
 
 /* контакты */
 .address {
+  margin-top: 20px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -244,7 +250,7 @@ body {
   text-decoration: none;
 }
 
-.contacts-footer {
+.footer-contacts {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -266,9 +272,108 @@ body {
 .header-section {
   align-items: center;
   padding: 25px 0;
+  justify-content: flex-start;
 }
 
 .top-line {
   max-width: none;
   border-bottom: 1px solid #ececec;
+}
+
+.top-button {
+  display: flex;
+  width: 294px;
+  margin-left: 93px;
+  justify-content: space-between;
+
+  outline: 2px solid tomato;
+}
+
+.top-button .nav-button-hover {
+  background-color: teal;
+}
+.top-button .list:not(:last-child) {
+  margin-right: 50px;
+}
+
+.top-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.top-contacts .list:not(:last-child) {
+  margin-right: 50px;
+}
+
+.main-box {
+  max-width: 1600;
+  height: 600px;
+  background-color: #2f303a;
+  color: white;
+  padding: auto;
+  padding-top: 195px;
+  padding-bottom: 202px;
+  text-align: center;
+}
+
+.benefits-container {
+  display: flex;
+
+  background-color: tomato;
+}
+.benefits-section {
+  width: 270px;
+}
+/* .benefits-container .list:not(:last-child) {
+  margin-right: 30;
+} */
+
+.our-work,
+.our-team {
+  flex-wrap: wrap;
+}
+
+.our-foto {
+  display: flex;
+}
+.our-foto .list:not(:last-child) {
+  margin-right: 30px;
+}
+.footer-section {
+  color: white;
+  background-color: #2f303a;
+}
+.footer-container {
+  display: block;
+  text-align: start;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-list {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+.main-menu {
+  display: flex;
+}
+
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-nav .list:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-section {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-list {
+  width: calc(100%-60) / 3;
+  margin-right: 30px;
 }
