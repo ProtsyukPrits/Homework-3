@@ -26,16 +26,17 @@
     
     
     
-            <ul class="top-button list-two">
-                <li class="list"><a href="index.html" class="nav-button-hover">Студия</a></li>
-                <li class="list"><a href="second page.html" class="nav-button-hover">Портфолио</a></li>
-                <li class="list"><a href="Контакты" class="nav-button-hover">Контакты</a></li>
+            <ul class="top-button">
+                <li class="item-top-button"><a href="index.html" class="nav-button-hover">Студия</a></li>
+                <li class="item-top-button"><a href="second page.html" class="nav-button-hover">Портфолио</a></li>
+                <li class="item-top-button"><a href="Контакты" class="nav-button-hover">Контакты</a></li>
             </ul>
     
-    
-            <ul class="top-contacts list-two">
-                <li class="list"><a href="mailto:info@devstudio.com" class="contacts-head-hover">info@devstudio.com</a></li>
-                <li class="list"><a href="tel:+38 096 111 11 11" class="tel-head-hover">+38 096 111 11 11</a></li>
+            <ul class="top-contacts">
+                <li class="item-top-contacts"><a href="mailto:info@devstudio.com"
+                        class="contacts-head-hover">info@devstudio.com</a></li>
+                <li class="item-top-contacts"><a href="tel:+38 096 111 11 11" class="tel-head-hover">+38 096 111 11 11</a>
+                </li>
             </ul>
         </nav>
     
@@ -44,16 +45,18 @@
 
     <!--Основа страницы-->
 
-    <main  >
+    <main class="section" >
 
         <!--Кнопки-->
 
-            <nav class="portfolio-nav">
-                <li class="list"><button type="button" class="anchor">Все</button></li>
-                <li class="list"><button type="button" class="anchor">Веб-сайты</button></li>
-                <li class="list"><button type="button" class="anchor">Приложения</button></li>
-                <li class="list"><button type="button" class="anchor">Дизайн</button></li>
-                <li class="list"><button type="button" class="anchor">Маркетинг</button></li>
+            <nav class="portfolio-main container">
+                <ul class="portfolio-nav">
+                <li class="item-portfolio-nav"><button type="button" class="anchor">Все</button></li>
+                <li class="item-portfolio-nav"><button type="button" class="anchor">Веб-сайты</button></li>
+                <li class="item-portfolio-nav"><button type="button" class="anchor">Приложения</button></li>
+                <li class="item-portfolio-nav"><button type="button" class="anchor">Дизайн</button></li>
+                <li class="item-portfolio-nav"><button type="button" class="anchor">Маркетинг</button></li>
+                </ul>
             </nav>
 
 
@@ -62,76 +65,121 @@
         <section class="portfolio-section container">
 
             <ul class="portfolio-list">
-                <li>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
                     <img src="images/img1 2pages.png" width="370px" alt="ноутбук с заставкой">
+                    </div>
+
+                    <div class="portfolio-foto-text">
                     <h3 class="menu-name">Технокряк</h3>
                     <p class="menu-classification">Веб-сайт</p>
+                    </div>
                 </li>
            
 
            
-                <li>
-                    <img src="images/img2 2pages.png" width="370px" alt="баскетболисты">
-                    <h3 class="menu-name">Постер New Orlean vs Golden Star</h3>
-                    <p class="menu-classification">Дизайн<p>
+                <li class="item-portfolio">
+                   <div class="portfolio-foto">
+                        <img src="images/img2 2pages.png" width="370px" alt="баскетболисты">
+                   </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Постер New Orlean vs Golden Star</h3>
+                        <p class="menu-classification">Дизайн<p>
+                    </div>
                 </li>
             
 
            
-                <li>
-                    <img src="images/img3 2pages.png" width="370px" alt="логотип ресторана">
-                    <h3 class="menu-name">Ресторан Seafood</h3>
-                    <p class="menu-classification">Приложения</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img3 2pages.png" width="370px" alt="логотип ресторана">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Ресторан Seafood</h3>
+                        <p class="menu-classification">Приложения</p>
+                    </div>
                 </li>
            
 
 
             
-                <li>
-                    <img src="images/img4 2pages.png" width="370px" alt="наушники">
-                    <h3 class="menu-name">Проект Prime</h3>
-                    <p class="menu-classification">Маркетинг</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img4 2pages.png" width="370px" alt="наушники">
+                    </div>
+
+                   <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Проект Prime</h3>
+                        <p class="menu-classification">Маркетинг</p>
+                   </div>
                 </li>
             
 
            
-                <li>
-                    <img src="images/img5 2pages.png" width="370px" alt="две коробки">
-                    <h3 class="menu-name">Проект Boxes</h3>
-                    <p class="menu-classification">Приложения</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img5 2pages.png" width="370px" alt="две коробки">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Проект Boxes</h3>
+                        <p class="menu-classification">Приложения</p>
+                    </div>
                 </li>
             
 
             
-                <li>
-                    <img src="images/img6 2pages.png" width="370px" alt="монитор">
-                    <h3 class="menu-name">Inspiration has no Borders</h3>
-                    <p class="menu-classification">Веб-сайт</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img6 2pages.png" width="370px" alt="монитор">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Inspiration has no Borders</h3>
+                        <p class="menu-classification">Веб-сайт</p>
+                    </div>
                 </li>
          
 
             
-                <li>
-                    <img src="images/img7 2pages.png" width="370px" alt="книга">
-                    <h3 class="menu-name">Издание Limited Edition</h3>
-                    <p class="menu-classification">Дизайн</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img7 2pages.png" width="370px" alt="книга">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Издание Limited Edition</h3>
+                        <p class="menu-classification">Дизайн</p>
+                    </div>
                 </li>
            
 
 
             
-                <li>
-                    <img src="images/img8 2pages.png" width="370px" alt="ярлык">
-                    <h3 class="menu-name">Проект LAB</h3>
-                    <p class="menu-classification">Маркетинг</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img8 2pages.png" width="370px" alt="ярлык">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Проект LAB</h3>
+                        <p class="menu-classification">Маркетинг</p>
+                    </div>
                 </li>
          
 
             
-                <li>
-                    <img src="images/img9 2pages.png" width="370px" alt="печатает на клавиатуре">
-                    <h3 class="menu-name">Growing Business</h3>
-                    <p class="menu-classification">Приложения</p>
+                <li class="item-portfolio">
+                    <div class="portfolio-foto">
+                        <img src="images/img9 2pages.png" width="370px" alt="печатает на клавиатуре">
+                    </div>
+
+                    <div class="portfolio-foto-text">
+                        <h3 class="menu-name">Growing Business</h3>
+                        <p class="menu-classification">Приложения</p>
+                    </div>
                 </li>
             </ul>
 
@@ -147,11 +195,12 @@
             <a class="logo" href="/">
                 <span class="logo-web">Web</span> <span class="logo-studio-white">Studio</span></a>
             <address class="address">
-                г. Киев, пр-т Леси Украинки, 26
-                <ul class="list list-two">
-                    <li class="footer-list"><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
+                <ul class="contacts">
+                    <li class="item-contacts"> г. Киев, пр-т Леси Украинки, 26 </li>
+                    <li class="item-contacts"><a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
                     </li>
-                    <li><a href="tel:+38 099 111 11 11" class="footer-contacts">+38 099 111 11 11</a></li>
+                    <li class="item-contacts"> <a href="tel:+38 099 111 11 11" class="footer-contacts">+38 099 111 11 11</a>
+                    </li>
                 </ul>
             </address>
         </div>
