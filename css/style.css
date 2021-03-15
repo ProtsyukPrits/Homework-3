@@ -291,8 +291,8 @@ body {
 .our-foto,
 .portfolio-nav,
 .portfolio-section,
-.portfolio-list,
-.contacts {
+.portfolio-list
+ {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -377,7 +377,12 @@ body {
 }
 
 .contacts {
+  display: block;
+  list-style: none;
   align-items: flex-start;
+  padding: 0px;
+  margin: 0px;
+
 }
 
 .contacts .item-contacts:not(:last-child) {
